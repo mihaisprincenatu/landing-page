@@ -26,6 +26,10 @@ body {
   background-color: #1f2937;
 }
 
+.quote-container {
+  background-color: #e5e7eb;
+}
+
 .header,
 .hero,
 .info,
@@ -36,9 +40,12 @@ body {
 }
 
 .hero-container,
-.info-container,
 .sign-up-container,
 .quote-container {
+  flex: 2 1 auto;
+}
+
+.info-container {
   flex: 1 1 auto;
 }
 
@@ -120,6 +127,18 @@ button {
   height: 160px;
 }
 
+.quote-text {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote-author {
+  font-size: 22px;
+  font-weight: 600;
+}
+
 
 /* Position inner elements within each section */
 
@@ -188,4 +207,17 @@ button {
   align-items: center;
   gap: 8px;
   text-align: center;
+}
+
+
+/* Quote */
+
+.quote {
+  flex: 0 1 820px;
+  margin: 64px 16px 64px 64px;
+}
+
+.quote-author {
+  text-align: right;
+  margin-right: 32px;
 }
