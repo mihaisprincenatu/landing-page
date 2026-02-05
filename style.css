@@ -27,7 +27,7 @@ body {
 .quote,
 .sign-up,
 .footer {
-  width: 800px;
+  width: 1200px;
 }
 
 .hero-container,
@@ -43,3 +43,34 @@ body {
   align-items: center;
 }
 
+.header ul {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.header ul li a,
+.footer {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 32px;
+}
