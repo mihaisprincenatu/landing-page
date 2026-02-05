@@ -71,7 +71,8 @@ body {
 .header ul li a,
 .footer,
 .hero p,
-.hero-right-side {
+.hero-right-side,
+.sign-up p {
   color: #e5e7eb;
   font-size: 18px;
 }
@@ -137,6 +138,12 @@ button {
 .quote-author {
   font-size: 22px;
   font-weight: 600;
+}
+
+.sign-up h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
 }
 
 
@@ -220,4 +227,17 @@ button {
 .quote-author {
   text-align: right;
   margin-right: 32px;
+}
+
+
+/* Sign up */
+
+.sign-up {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  padding: 48px 24px;
+  margin: 64px 16px;
+  border-radius: 8px;
 }
